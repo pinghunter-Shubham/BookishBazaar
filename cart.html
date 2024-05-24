@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookishBazaar</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <section id="header">
+        <a href="#"><img src="img/bookishbazaar.png" class="logo"alt width="300" height="50"></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html"><i class='bx bx-home-alt-2'></i></a></li>
+                <li><a href="shop.html"><i class='bx bxs-store' ></i></a></li>
+                <li><a href="registration.html">Register/login</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li id="lg-bag"><a class="active" href="cart.html"><i class='bx bx-shopping-bag'></i></a></li>
+                <a href="#" id="close"><i class='bx bx-x'></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class='bx bx-shopping-bag'></i></a>
+            <i id="bar" class='bx bx-menu'></i>
+        </div>
+    </section>
+
+    <section id="page-header">
+        <h2>#lets's TALK</h2>
+        <p><b>Leave a message, We love to hear from you!</b></p>
+    </section>
+
+    <section id="cart" class="section-p1">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Image</td>
+                    <td>Product</td>
+                    <td>Price</td>
+                    <td>Quantity</td>
+                    <td>Subtotal</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><i class='bx bx-x-circle'></i></td>
+                    <td><img src="img/products/Satoshi.jpg" alt=""></td>
+                    <td>Satoshi Kon Opus</td>
+                    <td>1313Rs.</td>
+                    <td><input type="number" value="1"></td>
+                    <td>1313Rs.</td>
+                </tr>
+                <tr>
+                    <td><i class='bx bx-x-circle'></i></td>
+                    <td><img src="img/products/kitne-ghazi.jpg" alt=""></td>
+                    <td>Kitne Ghazi Aye Kitne Ghazi Gaye</td>
+                    <td>410Rs.</td>
+                    <td><input type="number" value="1"></td>
+                    <td>410Rs.</td>
+                </tr>
+                <tr>
+                    <td><i class='bx bx-x-circle'></i></td>
+                    <td><img src="img/products/India's-Braveheart.jpg" alt=""></td>
+                    <td>India's-Braveheart</td>
+                    <td>285Rs.</td>
+                    <td><input type="number" value="1"></td>
+                    <td>285Rs.</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="cart-add" class="section-p1">
+        <div id="coupon">
+            <h3>Apply Offers by entering Student-ID</h3>
+            <div>
+                <input type="text" placeholder="Enter you ID">
+                <button class="normal">Apply</button>
+            </div>
+        </div>
+        <div id="subtotal">
+            <h3>Cart Total</h3>
+            <table>
+                <tr>
+                    <td>Cart Subtotal</td>
+                    <td>2008Rs.</td>
+                </tr>
+                <tr>
+                    <td>Shipping</td>
+                    <td>Free</td>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td><strong>2008Rs.</strong></td>
+                </tr>
+            </table>
+            <button class="normal">Proceed To Checkout</button>
+        </div>
+    </section>
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="img/bookishbazaar.png" alt="" width="300" height="50">
+            <h4>Contact</h4>
+            <p><strong>Address: </strong>51/C Dakshinswar Kolkata-700006,India</p>
+            <p><strong>Phone: </strong>(+91)933077454</p>
+            <p><strong>Hours: </strong>MON-SAT(8am to 10pm) can place orders</p>
+            <div class="follow">
+                <h4>Follow Us</h4>
+                <div class="icon">
+                    <i class='bx bxl-facebook'></i>
+                    <i class='bx bxl-instagram' ></i>
+                    <i class='bx bxl-pinterest-alt' ></i>
+                    <i class='bx bxl-youtube' ></i>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">view cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My order</a>
+            <a href="#">Help</a>
+        </div>
+        
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App stor and Google play</p>
+            <div class="row">
+                <img src="img/pay/app.jpg" alt="">
+                <img src="img/pay/play.jpg" alt="">
+            </div>
+            <p>Secure Payment Gateway</p>
+            <img src="img/pay/pay.png">
+        </div>
+        <div class="copyright">
+            <p>© 2023, BookishBazaar - HTML and CSS assignment</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
