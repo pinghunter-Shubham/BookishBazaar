@@ -2,26 +2,25 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login - Bookish Baazaar</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Login - BookishBazaar</title>
+    <link href='https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css"> <!-- Assuming your login page CSS file is named "login-style.css" -->
 </head>
 <body>
-    <div class="login-container">
-        <h1>Bookish Baazaar</h1>
-        <form id="loginForm">
-            <div class="input-group">
-                <label for="username">Username</label>
-                <input type="text" id="username" name="username" required>
-            </div>
-            <div class="input-group">
-                <label for="password">Password</label>
-                <input type="password" id="password" name="password" required>
-            </div>
-            <button type="submit">Login</button>
-        </form>
-        <p>Don't have an account? <a href="register.html">Register here</a></p>
-    </div>
-    <script src="scripts.js"></script>
+    <section class="login-container">
+        <div class="login-form">
+            <a href="#"><img src="img/bookishbazaar.png" class="logo"alt width="300" height="50"></a>
+            <h2>Login</h2>
+            <form action="login.php" method="POST"> <!-- Replace "login.php" with your actual login processing file -->
+                <input type="text" name="username" placeholder="Username" required>
+                <input type="password" name="password" placeholder="Password" required>
+                <button type="submit">Login</button>
+            </form>
+            <p>Don't have an account? <a href="registration.html">Register here</a></p> <!-- Link to your registration page -->
+        </div>
+    </section>
 </body>
 </html>
